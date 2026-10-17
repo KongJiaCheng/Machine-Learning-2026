@@ -1,0 +1,4 @@
+model,best_cv_f1,best_cv_roc_auc,fit_search_seconds,best_params
+Logistic Regression,0.37282708074285054,0.7636357090968501,27.924682599958032,"{'model__class_weight': 'balanced', 'model__C': np.float64(31.622776601683793)}"
+Random Forest,0.4674274183166901,0.7921272418932213,341.949373499956,"{'model__n_estimators': 250, 'model__min_samples_leaf': 2, 'model__max_features': 'sqrt', 'model__max_depth': 22, 'model__class_weight': 'balanced'}"
+Histogram Gradient Boosting,0.34498273129596396,0.797834485307173,147.1882080999203,"{'model__min_samples_leaf': 20, 'model__max_leaf_nodes': 31, 'model__max_iter': 240, 'model__learning_rate': 0.1, 'model__l2_regularization': 1.0}"
